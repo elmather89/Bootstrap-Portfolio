@@ -17,12 +17,25 @@ h2 {
 }
 
 .nav-link {
-    color: #777777;
+    color: #777777!important;
 }
 
 /* ask for a better solution to change the navbar's bg color */
 .bg-dark {
-    background-color: coral!important;
+    background-color: #ffffff!important;
+    padding: 0;
+}
+
+.navbar-dark .navbar-brand {
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.navbar-toggler {
+    background-color: red;
+    margin: 0 0 0 20px;
 }
 
 body {
