@@ -31,11 +31,11 @@ h2 {
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    float: left;
 }
 
 .navbar-toggler {
     background-color: red;
-    margin: 0 0 0 20px;
 }
 
 body {
@@ -54,6 +54,11 @@ p {
     padding: 20px;
     height: auto;
     overflow: auto;
+}
+
+#toggle-bt {
+    float: right;
+    margin: 19px 0 0 0;
 }
 
 .profile-pic {
