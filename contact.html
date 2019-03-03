@@ -48,16 +48,77 @@
 
 <!--start Main Content-->
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <div id="main-cont">
-                <h2>About Me</h1>
-                <img src="assets/images/roverProfile.jpg" alt="Profile Picture" class="profile-pic" width="200px" height="auto">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni velit at, aperiam odit odio minus nobis alias ex beatae laborum sed natus animi quos iusto, ut nostrum quo asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quasi quas ipsa molestiae, cupiditate sunt provident, consectetur veniam similique quia nostrum, soluta perspiciatis mollitia veritatis blanditiis vitae eius dolore neque.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum illo iusto error aliquid natus incidunt doloremque magnam at, expedita corrupti ullam ducimus voluptatibus perspiciatis officiis itaque distinctio cumque neque? Delectus.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis, beatae enim provident sapiente doloremque nostrum reprehenderit ad nam qui, labore odio sint aperiam! Cumque vitae non voluptatem quis consectetur!
-                </p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="main-cont">
+<!-- container div for form -->          
+    <div id="wrapper">
+            <div id="main-form">
+                <div class="cont-form">
+                    <div id="about1">
+                        <h2>Contact</h2>
+                    </div>
+<div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Write your message here..."></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-</div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->                
+    </div>  
+            </div>
+    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 <!--end Main Content-->
 
   <!-- jQuery CDN -->

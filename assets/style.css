@@ -7,6 +7,17 @@
     font-size: 24px;
 }
 
+body {
+    background-image: url(../assets/images/concrete_seamless.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+p {
+    line-height: 1.1em;
+}
+
+
 h2 {
     margin: 0 0 20px 0;
     padding: 0 0 20px 0;
@@ -20,7 +31,7 @@ h2 {
     color: #777777!important;
 }
 
-/* ask for a better solution to change the navbar's bg color */
+/* ask about a better solution to change the navbar's bg color */
 .bg-dark {
     background-color: #ffffff!important;
     padding: 0;
@@ -36,16 +47,6 @@ h2 {
 
 .navbar-toggler {
     background-color: #4aaaa5;
-}
-
-body {
-    background-image: url(../assets/images/concrete_seamless.png);
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-p {
-    line-height: 1.1em;
 }
 
 #main-cont {
@@ -67,3 +68,8 @@ p {
 }
 
 * {box-sizing: border-box;}
+
+#img1 {
+    margin-bottom: 15px;
+    float: left;
+}
